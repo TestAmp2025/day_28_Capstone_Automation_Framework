@@ -1239,6 +1239,8 @@ https://[your-username].github.io/[your-repo-name]/
 
 This is for this repo 👇
 https://TestAmp2025.github.io/day_28_Capstone_Automation_Framework/
+
+Make sure you add your own URL
 ```
 
 ---
