@@ -1,0 +1,35 @@
+{
+  "name": "day-28-k12-harmony-hub-automation",
+  "version": "1.0.0",
+  "description": "K12 Harmony Hub automation framework with Playwright and Allure",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:debug": "npx playwright test --debug",
+    "test:headed": "npx playwright test --headed",
+    "test:student": "npx playwright test tests/student.spec.js",
+    "test:schedule": "npx playwright test tests/schedule.spec.js",
+    "report": "npx playwright show-report",
+    "allure:generate": "allure generate ./allure-results --clean -o ./allure-report",
+    "allure:open": "allure open ./allure-report",
+    "allure:serve": "allure serve ./allure-results"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "javascript",
+    "allure",
+    "k12",
+    "education"
+  ],
+  "author": "Testamplify Instructor",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.10.0",
+    "allure-commandline": "^2.36.0",
+    "allure-playwright": "^2.15.1"
+  }
+}
